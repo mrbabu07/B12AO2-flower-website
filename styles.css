@@ -5,7 +5,7 @@
   align-items: center;
   height: 71px;
   width: 1140px;
-  
+  border-radius: 8px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -32,4 +32,48 @@
     
 }
 
+.hero{
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  height: 461px;
+  margin: 0 auto;
+  
+  margin-top: 3rem;
+  gap: 40px;
+}
+
+.hero-img{
+    height: 355px;
+    width: 570p;
+    
+  display: block;
+  align-self: flex-end;
+   max-width: 100%;
+  /* height: auto; */
+  object-fit: cover;
+}
+
+.hero-content{
+    width: 570px;
+    height: 299px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.hero-heading{
+    font-size: 4rem;
+    font-weight: bold;
+     gap: 13px; 
+}
+
+.hero-para{
+  font-size: 22px;
+  color: #000000;
+  opacity: 50%;
+  line-height: 1.6;
+  line-height: 1.2;
+}
  
