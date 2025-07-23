@@ -42,6 +42,7 @@ display: flex;
   
   margin-top: 3rem;
   gap: 40px;
+  margin-bottom: 3rem;
 }
 
 .hero-img{
@@ -60,6 +61,7 @@ display: flex;
     height: 299px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
    
 }
 
@@ -76,4 +78,49 @@ display: flex;
   line-height: 1.6;
   line-height: 1.2;
 }
+
+.main-part{
+    text-align: center;
+    margin-top: 4rem;
+    width: 1140px;
+    height: 1186.68px;
+    margin: 0 auto;
+    
+    
+}
+
+.main-cart{
+    width: 270px;
+    height: 484px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-left: 1.3rem;
+    
+    
+}
+
+.main-cart img{
+    width: 250px;
+    height: 322px;
+    margin-bottom: 1.7rem;
+    gap: 20px;
+    
+}
+
+
+
+
+.main-cart button{
+   background-color: #f25c05;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+  cursor: pointer;
+  font-size: 12px;
+  width: 100%;
+  border-radius: 2px;
+  
+}
+
  
