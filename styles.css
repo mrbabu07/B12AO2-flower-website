@@ -1,0 +1,35 @@
+
+.header-section{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 71px;
+  width: 1140px;
+  
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ .header-section img{
+    width: 135px;
+    height: 82px;
+}
+
+.nav-links{
+    display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 22px 22px;
+  
+  
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+
+ 
