@@ -175,6 +175,17 @@
   position: relative;
 }
 
+/* flower store */
+.latest-deal{
+  max-width: 1440px;
+  max-height: 138px;
+  
+  margin-top: 5rem;
+  
+  text-align: center;
+  padding: 1rem;
+}
+
 /* 🔧 Mobile Responsive */
 @media (max-width: 768px) {
   .main-cart {
@@ -227,7 +238,7 @@
 }
 
 /*  Hero: Image on Right */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero {
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -287,12 +298,22 @@
 }
 
 /* flower store responsive */
-@media (max-width: 768px){
+@media (max-width: 576px){
   .flower-section{
     grid-template-columns: repeat(1, 1fr);
     flex-direction: column;
+    justify-content: flex-end;
   }
   .badge{
     display: none;
+  }
+}
+
+/* latest deal */
+@media (max-width: 576px){
+  .latest-deal{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20;
+    margin-bottom: 3rem;
   }
 }
