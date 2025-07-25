@@ -1,25 +1,22 @@
-/* General Reset */
-* {
-  
-  padding: 0;
-  
-}
-
-html, body {
+*body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Work Sans", sans-serif;
+  
 }
 
 /* Header */
 .header-section {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 71px;
   max-width: 1140px;
   border-radius: 8px;
-  margin: 0 auto;
+  margin-left: 34px;
+  margin-right: ;
   padding: 0 20px;
 }
 
@@ -31,7 +28,7 @@ html, body {
 
 .nav-links {
   display: flex;
-  text-align: center;
+  text-align: end;
   gap: 40px;
   list-style: none; 
   margin: 0;
@@ -44,18 +41,17 @@ html, body {
   color: black;
   font-weight: 500;
   
+  
 }
 
 .cart {
    display: flex; 
-   
-  
-  justify-content: flex-end;
-  align-items: center;
-  /* gap: 8px; */
+  justify-content: flex-end; 
+  align-items: center; 
   font-weight: bold;
   font-size: 16px;
   justify-content: center;
+  
   
 }
 
@@ -93,6 +89,14 @@ html, body {
   gap: 13px;
 }
 
+.hero-para {
+    font-size: 16px;
+    line-height: 1.5;
+    
+    color: #000000;
+    opacity: 50%;
+  }
+
 /* .hero-para {
   font-size: 22px;
   color: #000000;
@@ -120,6 +124,11 @@ html, body {
   width: 250px;
   height: 322px;
   margin-bottom: 1.7rem;
+}
+
+main-content-p{
+  color: #000000;
+  opacity: 50%;
 }
 
 .main-cart button {
@@ -207,7 +216,7 @@ html, body {
   display: grid;
   grid-template-columns: 35% 65%;
   grid-template-rows: 1fr 1fr;
-  gap: 20px;
+  /* gap: 20px; */
   width: 100%;
   max-width: 1140px;
   max-height: 430px;
@@ -215,6 +224,8 @@ html, body {
   margin-bottom: 60px;
   padding: 20px;
 }
+
+
 
 .img-box {
   position: relative;
@@ -226,7 +237,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   padding: 40px;
-  
+  margin: 20px;
   overflow: hidden;
 
 }
@@ -242,6 +253,8 @@ html, body {
   border-radius: 10px;
   
 }
+
+
 
 .img-box h1,
 .img-box a {
@@ -372,7 +385,7 @@ html, body {
 
 .footer-links ul li {
   margin-bottom: 10px;
-  color: #6b7280; /* greyish */
+  color: #6b7280; 
   font-size: 14px;
   cursor: pointer;
 }
@@ -389,7 +402,8 @@ html, body {
     flex-direction: row;
   }
   .subscribe-section{
-    width: 560px;
+    width: 580px;
+    margin-top: 120px;
   }
   
   }
@@ -421,7 +435,6 @@ html, body {
  .img-3 {
   grid-row: span 2;
   width: 753px;
-
   height: 423px;
   display: flex;
   align-items: center;
@@ -443,7 +456,10 @@ html, body {
   .main-content{
     width: 520px;
     height: 90%;
+    
   }
+
+  
 
   .header-section {
     flex-direction: column;
@@ -501,7 +517,6 @@ html, body {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     justify-content: center;
-    
     gap: 20px;
     padding: 20px;
     text-align: left;
@@ -511,8 +526,8 @@ html, body {
   
 
   .hero > * {
-    width: 520px;
-    text-align: center;
+    /* width: 520px; */
+    text-align: start;
   }
 
   /* .hero-content,
@@ -540,7 +555,9 @@ html, body {
   .hero-para {
     font-size: 16px;
     line-height: 1.5;
-    opacity: 0.7;
+    
+    color: #000000;
+    opacity: 50%;
   }
 
   /* Product grid responsive */
