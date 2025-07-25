@@ -594,6 +594,10 @@ main-content-p{
   .badge{
     display: none;
   }
+  .image-area img{
+    width: 560px;
+    height: auto;
+  }
 }
 
 /* latest deal */
